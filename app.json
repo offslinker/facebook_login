@@ -1,0 +1,8 @@
+{
+  "name": "Facebook login app",
+  "image": "heroku/ruby",
+  "repository": "https://github.com/offslinker/facebook_login.git",
+  "keywords": ["ruby", "rails" ],
+  "addons": [ "heroku-postgresql" ]
+}
+
