@@ -8,14 +8,6 @@
 </head>
 <body>
   <script>
-window.fbAsyncInit = function() {
-  FB.init({
-    appId      : '1498228503823076',
-    xfbml      : true,
-    version    : 'v2.4'
-  });
-};
-
 (function(d, s, id){
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) {return;}
@@ -24,8 +16,8 @@ window.fbAsyncInit = function() {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
   </script>
-
-<%= yield %>
-
+  <div class="container">
+    <%= yield %>
+  </div>
 </body>
 </html>

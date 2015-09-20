@@ -14,3 +14,7 @@
  *= require bootstrap/bootstrap-flex
  *= require_self
  */
+
+#friends_template {
+  display: none;
+}
